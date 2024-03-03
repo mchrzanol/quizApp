@@ -1,5 +1,5 @@
-import { View, Text, StyleSheet, Dimensions, Touchable, TouchableOpacity } from 'react-native'
-import React from 'react'
+import { View, Text, StyleSheet, Dimensions, Touchable, TouchableOpacity, ImageBackground, Image } from 'react-native'
+import React, { useEffect } from 'react'
 import COLORS from '../../assets/COLORS';
 import { Theme, useSettingsStore } from '../settingsStore';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -8,15 +8,24 @@ interface SubjectCardProps {
     subject:string;
     subTitle:string;
     onPress:()=>void;
-    imageURI?:string;
+    image:any;
 }
 
-const SubjectCard:React.FC<SubjectCardProps> = ({subject, subTitle,onPress, imageURI}) => {
+
+const SubjectCard:React.FC<SubjectCardProps> = ({subject, subTitle,onPress, image}) => {
     const WindowSize = Dimensions.get('window');
 
     const theme = useSettingsStore(state => state.theme);
   return (
-    <View style={[styles.container, {height:WindowSize.height*0.3}]}>
+    <View
+      style={[styles.container, {height:WindowSize.height*0.3}]}
+    >
+      <Image
+        style={ {height:WindowSize.height*0.3,width:'100%', position:'absolute', top:0,left:0, borderRadius:50}}
+        source={image}
+        resizeMode="cover"
+        onError={(error) => console.log("Error loading image:", error)}
+      />
         <Text style={[styles.textCommon, {marginTop:'10%',fontSize:32, fontWeight:'700', color:theme === Theme.light ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor}]}>{subject}</Text>
         <Text style={[styles.textCommon, {fontSize:15, fontWeight:'500', color:theme ===Theme.light ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor}]}>{subTitle}</Text>
         <TouchableOpacity 

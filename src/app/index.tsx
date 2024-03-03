@@ -1,5 +1,5 @@
 import { Link, router } from 'expo-router';
-import { Dimensions, FlatList, ImageBackground, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Dimensions, FlatList, ImageBackground, ScrollView, StyleSheet, Text, TouchableOpacity, View, Image } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import COLORS from '../../assets/COLORS';
@@ -15,9 +15,13 @@ export default function Index() {
   return (
      <SafeAreaView style={{flex:1}}>
       <View style={[styles.container, {backgroundColor:theme ==="light" ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor}]}>
-        <View style={styles.topImage}>
+        <Image 
+          style={styles.topImage}
+          source={require('./../../assets/images/homePageTop.png')}
+          resizeMode='cover'
+        >
 
-        </View>
+        </Image>
         <TouchableOpacity 
           style={{flex:1, position:'absolute', top:20, left:20}}
           onPress={()=>router.push({
@@ -37,12 +41,12 @@ export default function Index() {
           style={{flex:1, width:'100%'}}
           contentContainerStyle={{alignItems:'center'}}
           >
-              <SubjectCard subject='Matematyka' subTitle='świat magicznych liczb' 
+              <SubjectCard subject='Matematyka' subTitle='świat magicznych liczb' image = {require('./../../assets/images/matematyka.png')}
                 onPress={()=>router.push({
                   pathname:'/subjects/[subject]', 
                   params:{subject:'matematyka'}
                   })}/>
-              <SubjectCard subject='Fizyka' subTitle='zrozum zjawiska wokół'
+              <SubjectCard subject='Fizyka' subTitle='zrozum zjawiska wokół' image={require('./../../assets/images/fizyka.png')}
                 onPress={()=>router.push({
                   pathname:'/subjects/[subject]', 
                   params:{subject:'fizyka'}
@@ -61,7 +65,6 @@ const styles = StyleSheet.create({
   topImage:{
     height:'25%',
     width:'100%',
-    backgroundColor:'grey',
     borderBottomRightRadius:100
   }
 })
