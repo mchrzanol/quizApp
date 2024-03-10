@@ -6,15 +6,16 @@ import COLORS from '../../assets/COLORS';
 
 import { Ionicons } from '@expo/vector-icons';
 import SubjectCard from '../components/subjectCard';
+import { Theme, useSettingsStore } from '../settingsStore';
 
 export default function Index() {
 
-  const theme:string = "light";//z async storage potem to bierz
+  const theme = useSettingsStore(state => state.theme);
 
   const WindowSize = Dimensions.get('window');
   return (
      <SafeAreaView style={{flex:1}}>
-      <View style={[styles.container, {backgroundColor:theme ==="light" ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor}]}>
+      <View style={[styles.container, {backgroundColor: theme === Theme.light ? "#fff" : "#000000"}]}>
         <Image 
           style={styles.topImage}
           source={require('./../../assets/images/homePageTop.png')}
@@ -28,13 +29,13 @@ export default function Index() {
             pathname:'/settings/settingsScreen'
             })}
           >
-          <Ionicons name="settings-outline" size={50} color={theme ==="light" ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor} />
+          <Ionicons name="settings-outline" size={50} color={theme ===Theme.light ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor} />
         </TouchableOpacity>
         <View
           style={{flex:1, position:'absolute', top:WindowSize.height*0.25-120, left:15}}
         >
-          <Text style={{fontWeight:'700',fontSize:60, color:theme ==="light" ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor}}>Nauka!</Text>
-          <Text style={{fontSize:20, color:theme ==="light" ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor}}>wybierz swój przedmiot</Text>
+          <Text style={{fontWeight:'700',fontSize:60, color:theme ===Theme.light ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor}}>Nauka!</Text>
+          <Text style={{fontSize:20, color:theme ===Theme.light ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor}}>wybierz swój przedmiot</Text>
         </View>
 
         <ScrollView
