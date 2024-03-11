@@ -1,0 +1,30 @@
+{
+    "class": [
+        {
+            "chapters":[
+                "Opis ruchu postępowego",
+                "Siła jako przyczyna zmian ruchu",
+                "Praca, moc, energia",
+                "Zjawiska hydrostatyczne"
+            ]
+        },
+        {
+            "chapters":[
+                "Ruch postępowy i obrotowy",
+                "Pole grawitacyjne",
+                "Ruch drgający harmoniczny",
+                "Zjawiska termodynamiczne",
+                "Pole elektrostatyczne"
+            ]
+        },
+        {
+            "chapters":[
+                "Prąd stały i modele przewodnictwa",
+                "Pole magnetyczne",
+                "Indukcja elektromagnetyczna",
+                "Optyka geometryczna",
+                "Fale mechaniczne"
+            ]
+        }
+    ]
+}
