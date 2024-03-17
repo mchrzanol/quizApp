@@ -40,12 +40,12 @@ export default function Index() {
               <SubjectCard subject='Matematyka' subTitle='świat magicznych liczb' 
                 onPress={()=>router.push({
                   pathname:'/subjects/[subject]', 
-                  params:{subject:'matematyka'}
+                  params:{subject:'Matematyka', year: '3'}
                   })}/>
               <SubjectCard subject='Fizyka' subTitle='zrozum zjawiska wokół'
                 onPress={()=>router.push({
                   pathname:'/subjects/[subject]', 
-                  params:{subject:'fizyka'}
+                  params:{subject:'Fizyka', year: '3'}
                   })}/>
         </ScrollView>
 
