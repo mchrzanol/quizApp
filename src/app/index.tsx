@@ -45,12 +45,12 @@ export default function Index() {
               <SubjectCard subject='Matematyka' subTitle='świat magicznych liczb' image = {require('./../../assets/images/matematyka.png')}
                 onPress={()=>router.push({
                   pathname:'/subjects/[subject]', 
-                  params:{subject:'matematyka'}
+                  params:{subject:'Matematyka'}
                   })}/>
               <SubjectCard subject='Fizyka' subTitle='zrozum zjawiska wokół' image={require('./../../assets/images/fizyka.png')}
                 onPress={()=>router.push({
                   pathname:'/subjects/[subject]', 
-                  params:{subject:'fizyka'}
+                  params:{subject:'Fizyka'}
                   })}/>
         </ScrollView>
 
