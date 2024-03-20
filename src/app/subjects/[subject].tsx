@@ -45,20 +45,27 @@ const physicsTopics = [
 const mathematicsTopics = [
   {
     "chapters":[
-        "Opis ruchu postępowego",
-        "Siła jako przyczyna zmian ruchu",
-        "Praca, moc, energia",
-        "Zjawiska hydrostatyczne"
+        "Zbiory Liczbowe. Liczby rzeczywiste",
+        "Wyrażenia algebraiczne",
+        "Funkcje i ich własności",
+        "Funkcja liniowa",
+        "Układy równań liniowych z swiema niewiadomymi",
+        "Podstawowe własności wybranych funkcji",
+        "Geometria płaska-pojęcia wstępne",
+        "Trygonometria kąta ostrego"
     ],
     "class": 1
 },
 {
     "chapters":[
-        "Ruch postępowy i obrotowy",
-        "Pole grawitacyjne",
-        "Ruch drgający harmoniczny",
-        "Zjawiska termodynamiczne",
-        "Pole elektrostatyczne"
+        "Przekształcanie wykresów funkcji",
+        "Równania i nierówności z wartością bezwzględną",
+        "Funkcja kwadratowa",
+        "Geometria Płaska -okegi i koła",
+        "Trygonometria",
+        "Geometria analityczna",
+        "Geometria płaska - rozwiązywanie trójkątów",
+        "Wielomiany"
     ],
     "class": 2
 },
@@ -138,7 +145,7 @@ const SubjectScreen = () => {
   return (
 
     <SafeAreaView style={{flex:1}}>
-      <View style={[styles.container, {backgroundColor:theme ===Theme.light ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor}]}>
+      <View style={[styles.container, {backgroundColor:theme === Theme.light ? '#fff' : '#000000'}]}>
           <View style={styles.topImage}>
           <ImageBackground 
             style={{width:'100%', height:'100%'}}

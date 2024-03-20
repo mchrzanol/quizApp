@@ -47,9 +47,9 @@ const questionScreen = () => {
                         setGoodAnswers(goodAnswers+1);
                     }
                     if(currentIndex === 1) {
-                        router.navigate({
+                        router.replace({
                             pathname:'quiz/endscreen/[points]', 
-                            params:{earned:goodAnswers, outOf:2}
+                            params:{earned:goodAnswers, outOf:2, chapter:chapter}
                             })
                     }else {
                         setCurrentIndex(currentIndex+1);

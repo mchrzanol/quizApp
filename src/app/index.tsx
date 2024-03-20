@@ -26,16 +26,16 @@ export default function Index() {
         <TouchableOpacity 
           style={{flex:1, position:'absolute', top:20, left:20}}
           onPress={()=>router.push({
-            pathname:'/settings/settingsScreen'
+           pathname:'/settings/settingsScreen'
             })}
           >
-          <Ionicons name="settings-outline" size={50} color={theme ===Theme.light ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor} />
+          <Ionicons name="settings-outline" size={50} color='#fff' />
         </TouchableOpacity>
         <View
           style={{flex:1, position:'absolute', top:WindowSize.height*0.25-120, left:15}}
         >
-          <Text style={{fontWeight:'700',fontSize:60, color:theme ===Theme.light ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor}}>Nauka!</Text>
-          <Text style={{fontSize:20, color:theme ===Theme.light ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor}}>wybierz swój przedmiot</Text>
+          <Text style={{fontWeight:'700',fontSize:60, color:'#fff'}}>Nauka!</Text>
+          <Text style={{fontSize:20, color:'#fff'}}>wybierz swój przedmiot</Text>
         </View>
 
         <ScrollView

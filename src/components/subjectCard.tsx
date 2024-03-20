@@ -26,13 +26,13 @@ const SubjectCard:React.FC<SubjectCardProps> = ({subject, subTitle,onPress, imag
         resizeMode="cover"
         onError={(error) => console.log("Error loading image:", error)}
       />
-        <Text style={[styles.textCommon, {marginTop:'10%',fontSize:32, fontWeight:'700', color:theme === Theme.light ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor}]}>{subject}</Text>
-        <Text style={[styles.textCommon, {fontSize:15, fontWeight:'500', color:theme ===Theme.light ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor}]}>{subTitle}</Text>
+        <Text style={[styles.textCommon, {marginTop:'10%',fontSize:32, fontWeight:'700', color:'#fff'}]}>{subject}</Text>
+        <Text style={[styles.textCommon, {fontSize:15, fontWeight:'500', color:'#fff'}]}>{subTitle}</Text>
         <TouchableOpacity 
         style={styles.button}
         onPress={onPress}
         >
-            <Text style={{fontSize:18,fontWeight:'500',color:theme ===Theme.light ? COLORS.light.colors.themeColor : COLORS.dark.colors.themeColor }}>Zacznij!</Text>
+            <Text style={{fontSize:18,fontWeight:'500',color:'#fff' }}>Zacznij!</Text>
         </TouchableOpacity>
     </View>
   )

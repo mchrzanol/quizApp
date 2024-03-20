@@ -13,11 +13,11 @@ const startScreen = () => {
 
   return (
     <SafeAreaView style={{flex:1}}>
-      <View style={[styles.container, {backgroundColor:theme === Theme.light ? '#fff' : '#00000'}]}>
+      <View style={[styles.container, {backgroundColor:theme === Theme.light ? '#fff' : '#000000'}]}>
         <View style={styles.topImage}>
           <ImageBackground
             style={{width:'100%', height:'100%', justifyContent:'center', alignItems:'center'}}
-            source={require('./../../../../assets/images/background.png')}
+            source={require('./../../../../assets/images/start.png')}
             >
             <Text style={styles.header}>{chapter}</Text>
           </ImageBackground>
