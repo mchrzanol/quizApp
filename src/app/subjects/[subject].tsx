@@ -5,6 +5,7 @@ import { useLocalSearchParams, useNavigation } from 'expo-router'
 import { Theme, useSettingsStore } from '../../settingsStore'
 
 import { AntDesign } from '@expo/vector-icons';
+import { router } from 'expo-router';
 
 import COLORS from '../../../assets/COLORS'
 
@@ -63,11 +64,14 @@ const mathematicsTopics = [
 },
 {
     "chapters":[
-        "Prąd stały i modele przewodnictwa",
-        "Pole magnetyczne",
-        "Indukcja elektromagnetyczna",
-        "Optyka geometryczna",
-        "Fale mechaniczne"
+        "Ułamki algebraiczne. Równania i nierówności wymierne.",
+        "Ciągi",
+        "Kombinatoryka. Dwumian Newtona.Trójkąt Pascala",
+        "Czworokąty",
+        "Geometria płaska - pole czworokąta"
+        ,"Elementy analizy matematycznej",
+        "Trygonometria",
+        "Geometria analityczna"
     ],
     "class": 3
 }
@@ -76,9 +80,15 @@ const mathematicsTopics = [
 const TableItem = ({ title, color }: { title: string; color: string }) => {
   return (
     <View style={{width:'100%', alignItems:'center'}}>
-      <View style={[{ backgroundColor: color }, styles.itemContainer]}>
+      <TouchableOpacity 
+      style={[{ backgroundColor: color }, styles.itemContainer]}
+      onPress={()=>router.push({
+        pathname:'quiz/startscreen/[chapter]', 
+        params:{chapter:title}
+        })}
+      >
         <Text style={{fontSize:25, color:'#fff', textAlign:'center'}}>{title}</Text>
-      </View>
+      </TouchableOpacity>
     </View>
   );
 };

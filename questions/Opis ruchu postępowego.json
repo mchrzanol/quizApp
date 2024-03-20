@@ -1,0 +1,21 @@
+[
+    {
+        "question":"ile kilometr to metrów?",
+        "answers": [
+            "1000m",
+            "10m",
+            "100m",
+            "150m"
+        ]
+    },
+    {
+        "question":"ile kilometr to dupa?",
+        "answers": [
+            "1000m",
+            "10m",
+            "100m",
+            "150m"
+        ]
+    }
+]
+    
