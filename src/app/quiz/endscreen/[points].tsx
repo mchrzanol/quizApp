@@ -24,7 +24,7 @@ const points = () => {
                   <Text style={{color:'#fff', fontSize:35, fontWeight:'900'}}>Oto twój wynik!</Text>
                 </View>
                 <View style={{width:'80%', height:'20%', justifyContent:'center', alignItems:'center', backgroundColor:'#9b5dff', marginTop:20, borderRadius:20}}>
-                    <Text style={{fontSize:70, color:'#fff', fontWeight:'700'}}>{parseInt(earned)/parseInt(outOf)}%</Text>
+                    <Text style={{fontSize:70, color:'#fff', fontWeight:'700'}}>{parseInt(earned)/parseInt(outOf)*100}%</Text>
                     <Text style={{fontSize:20, color:'#fff', fontWeight:'700'}}>{
                     parseInt(earned)/parseInt(outOf) <0.41 ? 
                     "Nastepnym razem będzie lepiej" :

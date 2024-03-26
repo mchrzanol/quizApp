@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Funkcja f(x)=0,5x−6",
+        "answers": [
+            "jest rosnąca i jej wykres przechodzi przez punkt (0,−6)",
+            "jest malejąca i jej wykres przechodzi przez punkt (0,−6)",
+            "jest rosnąca i jej wykres przechodzi przez punkt (0,6)",
+            "jest malejąca i jej wykres przechodzi przez punkt (0,6)"
+        ]
+    },
+    {
+        "question": "Funkcja liniowa f(x)=ax+b  jest rosnąca i ma dodatnie miejsce zerowe. Stąd wynika, że?",
+        "answers": [
+            "a>0 i b<0",
+            "a<0 i b<0",
+            "a>0  i b>0",
+            "a<0 i b>0"
+        ]
+    },
+    {
+        "question": "Do wykresu funkcji liniowej należą punkty A=(1,2) i B=(−2,5). Funkcja f ma wzór",
+        "answers": [
+            "f(x)=−x+3",
+            "f(x)=−x−3",
+            "f(x)=x−3",
+            "f(x)=x+3"
+        ]
+    },
+    {
+        "question": "Współczynnik kierunkowy prostej równoległej do prostej o równaniu y=−3x+5 jest równy",
+        "answers": [
+            "−3",
+            "-1/3",
+            "1/3",
+            "3"
+        ]
+    },
+    {
+        "question": "Proste l i k są prostopadłe i l: 2x−9y+6=0, k: y=ax+b. Wówczas:",
+        "answers": [
+            "a = -9/2",
+            "a = 9/2",
+            "a = -2/9",
+            "a = 2/9"
+        ]
+    },
+    {
+        "question": "Wskaż m, dla którego funkcja liniowa f(x)=(m−1)x+6 jest rosnąca:",
+        "answers": [
+            "m = 2",
+            "m = 0",
+            "m = 1",
+            "m = -1"
+        ]
+    },
+    {
+        "question": "Liczba −2 jest miejscem zerowym funkcji liniowej f(x)=mx+2. Wtedy:",
+        "answers": [
+            "m = 1",
+            "m = 3",
+            "m = -2",
+            "m = 4"
+        ]
+    },
+    {
+        "question": "Funkcja f jest określona wzorem f(x)=3x−4 dla każdej liczby z przedziału ⟨−2,2⟩. Zbiorem wartości tej funkcji jest przedział:",
+        "answers": [
+            "<-10;2>",
+            "(-10;2>",
+            "<2;10>",
+            "(2;10)"
+        ]
+    },
+    {
+        "question": "Wykres funkcji liniowej y=2x−3 przecina oś Oy w punkcie o współrzędnych:",
+        "answers": [
+            "(0,-3)",
+            "(-3,0)",
+            "(0,2)",
+            "(0,3)"
+        ]
+    },
+    {
+        "question": "Do wykresu funkcji liniowej należą punkty A=(1,2) i B=(−2,5). Funkcja f ma wzór:",
+        "answers": [
+            "f(x) = -x + 3",
+            "f(x) = x + 3",
+            "f(x) = x - 3",
+            "f(x) = -x -3"
+        ]
+    }
+]

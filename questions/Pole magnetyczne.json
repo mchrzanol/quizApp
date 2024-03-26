@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Kierunek i zwrot siły elektrodynamicznej określa",
+        "answers": [
+            "reguła lewej dłoni",
+            "reguła Lenza",
+            "reguła prawej dłoni",
+            "reguła śruby prawoskrętnej"
+        ]
+    },
+    {
+        "question": "Rdzenie transformatorów są zbudowane z:",
+        "answers": [
+            "ferromagnetyków",
+            "diamagnetyków",
+            "paramagnetyków",
+            "plastiku"
+        ]
+    },
+    {
+        "question": "Zasada działania transformatora oparta jest na: ",
+        "answers": [
+            "zjawisku indukcji magnetycznej",
+            "przepływie prądu stałego między obwodami",
+            "działaniu stałego pola elektrycznego na uzwojenia wtórne, ",
+            "działaniu stałego pola magnetycznego na uzwojenie wtórne"
+        ]
+    },
+    {
+        "question": "Ferromagnetykami sa:",
+        "answers": [
+            "kobalt, nikiel, zelazo",
+            "kobalt, zelazo, ołów",
+            "miedz, srebro, platyna,",
+            "nikiel, miedz, aluminium."
+        ]
+    },
+    {
+        "question": "Elektromagnes to:",
+        "answers": [
+            "zwojnica z rdzeniem ze stali",
+            "dwie zwojnice połàczone szeregowo",
+            "kazdy magnes",
+            "zwojnica"
+        ]
+    },
+    {
+        "question": "Jezeli magnes sztabkowy rozdzielisz na trzy czesci, to otrzymasz:",
+        "answers": [
+            "trzy magnesy",
+            "trzy kawałki nienamagnesowanego metalu",
+            "magnes oraz dwa rozdzielone bieguny magnetyczne",
+            "trzy magnesy, ale pod warunkiem, ze rozdzielone czesci beda jednakowej długosci"
+        ]
+    },
+    {
+        "question": "Własciwosci magnetyczne wykazuje:",
+        "answers": [
+            "magnes, Ziemia oraz przewodnik, przez który płynie prad elektryczny",
+            "tylko przewodnik, przez który płynie prad elektryczny",
+            "tylko Ziemia",
+            "tylko magnes"
+        ]
+    },
+    {
+        "question": "Silnik elektryczny pradu stałego",
+        "answers": [
+            "zamienia energie elektryczna na mechaniczna",
+            "zamienia energie chemiczna na elektryczna",
+            "wytwarza prad stały,",
+            "zamienia energie mechaniczna na elektryczna"
+        ]
+    },
+    {
+        "question": "Wzór na siłe lorentza to:",
+        "answers": [
+            "Bvq sin(B;v)",
+            "BIl sin(l;B)",
+            "BI/l",
+            "(Bq sin(B;v))/v"
+        ]
+    },
+    {
+        "question": "Jezeli igłe magnetyczna ułozysz w poblizu przewodnika z pràdem elektrycznym równolegle do niego, to igła:",
+        "answers": [
+            "wychyli sie",
+            "nie wychyli sie",
+            "bedzie wykonywaç ciàgły ruch obrotowy",
+            "bedzie wykonywaç ciàgły ruch wahadłowy"
+        ]
+    }
+]

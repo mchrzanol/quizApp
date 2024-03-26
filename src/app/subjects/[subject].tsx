@@ -75,8 +75,8 @@ const mathematicsTopics = [
         "Ciągi",
         "Kombinatoryka. Dwumian Newtona.Trójkąt Pascala",
         "Czworokąty",
-        "Geometria płaska - pole czworokąta"
-        ,"Elementy analizy matematycznej",
+        "Geometria płaska - pole czworokąta",
+        "Elementy analizy matematycznej",
         "Trygonometria",
         "Geometria analityczna"
     ],

@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Kąt α jest ostry i sinα=4/5. Wtedy cosα jest równy",
+        "answers": [
+            "3/5",
+            "1/5",
+            "2/5",
+            "4/5"
+        ]
+    },
+    {
+        "question": "Kąt α jest ostry oraz sinα=25. Wówczas",
+        "answers": [
+            "cosα>sinα",
+            "cosα=sinα",
+            "cosα<sinα",
+            "cosα=1−sinα"
+        ]
+    },
+    {
+        "question": "Kąt α jest ostry i sinα=0,6. Wówczas",
+        "answers": [
+            "cosα=0,8 i tgα=0,75",
+            "cosα=0,4 i tgα=0,75",
+            "cosα=0,4 i tgα=1,5",
+            "cosα=0,8 i tgα=0,4"
+        ]
+    },
+    {
+        "question": "Przyprostokątne trójkąta prostokątnego mają długości 8 i 6. Sinus większego z kątów ostrych tego trójkąta jest równy",
+        "answers": [
+            "4/5",
+            "3/4",
+            "3/5",
+            "4/3"
+        ]
+    },
+    {
+        "question": "Kąt α jest ostry i tgα=1. Wówczas",
+        "answers": [
+            "α=45∘",
+            "α>45∘",
+            "α<30∘",
+            "α=30∘"
+        ]
+    },
+    {
+        "question": "Kąt α jest ostry i sinα=0,75. Wówczas",
+        "answers": [
+            "α>45∘",
+            "α=45∘",
+            "α=30∘",
+            "α<30∘"
+        ]
+    },
+    {
+        "question": "Kąt α jest ostry oraz sinα=cos47∘. Wtedy miara kąta α jest równa:",
+        "answers": [
+            "43∘",
+            "47∘",
+            "33∘",
+            "6∘"
+        ]
+    },
+    {
+        "question": "Kąt α jest kątem ostrym i tgα=1/2. Jaki warunek spełnia kąt α?",
+        "answers": [
+            "α<30∘ ",
+            "α=30∘",
+            "α=60∘",
+            "α>60∘"
+        ]
+    },
+    {
+        "question": "W trójkącie prostokątnym ABC odcinek AB jest przeciwprostokątną i |AB|=13 oraz |BC|=12. Wówczas sinus kąta ABC jest równy.",
+        "answers": [
+            "5/13",
+            "12/13",
+            "5/12",
+            "13/12"
+        ]
+    },
+    {
+        "question": "Miara kąta wpisanego w okrąg jest o 30st mniejsza od miary kąta środkowego opartego na tym samym łuku. Wynika stąd, że miara kąta wpisanego jest równa:",
+        "answers": [
+            "30∘",
+            "20∘",
+            "10∘",
+            "5∘"
+        ]
+    }
+]
